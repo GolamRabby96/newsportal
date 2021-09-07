@@ -1,0 +1,30 @@
+{
+  "name": "newsportal-server",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000n\u0000e\u0000w\u0000s\u0000p\u0000o\u0000r\u0000t\u0000a\u0000l\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongodb": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GolamRabby96/newsportal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GolamRabby96/newsportal/issues"
+  },
+  "homepage": "https://github.com/GolamRabby96/newsportal#readme"
+}
