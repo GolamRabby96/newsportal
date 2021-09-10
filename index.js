@@ -100,6 +100,12 @@ client.connect((err) => {
 		});
 	})
 
+	app.get('/admin/:email',(req, res) => {
+		AdminDB.find({admin: req.params.email}).toArray((err, documents) => {
+			res.send(documents);
+		});
+	})
+
   
 
 	console.log("database connected");
